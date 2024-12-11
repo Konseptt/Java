@@ -5,7 +5,7 @@ public class Primesbetween2And100 {
         for (int num = 2; num <= 100; num++) {
             boolean isPrime = true;
 
-            for (int i = 2; i <= Math.sqrt(num); i++) {
+            for (int i = 2; i * i <= num; i++) {
                 if (num % i == 0) {
                     isPrime = false;
                     break;
@@ -13,7 +13,7 @@ public class Primesbetween2And100 {
             }
 
             if (isPrime) {
-                System.out.print(num + " ");
+                System.out.println(num + " ");
             }
         }
     }
