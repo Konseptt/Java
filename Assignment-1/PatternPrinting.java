@@ -1,4 +1,4 @@
-public class PatternPrinting {
+public class Patternprinting {
     public static void main(String[] args) {
         // Pattern a:
         System.out.println("Pattern a:");
