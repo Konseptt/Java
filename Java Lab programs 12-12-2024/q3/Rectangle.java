@@ -1,10 +1,18 @@
+/**
+ * Java Lab programs 12/12/2024
+ * Q3. Create a class named Rectangle with:
+ * • Attributes: length and width
+ * • Constructor to initialize these attributes
+ * • A method calculateArea() to return the area of the rectangle.
+ * Write a main method to create a Rectangle object and print its area.
+ */
 public class Rectangle {
     double length;
     double width;
 
     public Rectangle(double length, double width) {
         this.length = length;
-        this.width = width;
+        this.width = length;
     }
 
     public double calculateArea() {

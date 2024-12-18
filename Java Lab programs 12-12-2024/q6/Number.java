@@ -1,3 +1,10 @@
+/**
+ * Java Lab programs 12/12/2024
+ * Q6. Write a program to swap two numbers using a helper class:
+ * • Create a class Number with attributes a and b.
+ * • Write a method swap(Number n) that swaps the values of a and b.
+ * • Print the values before and after calling the method.
+ */
 public class Number {
     int a, b;
 
