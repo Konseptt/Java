@@ -9,8 +9,6 @@ public class StaticNonStaticDemo {
     public static void staticMethod() {
         System.out.println("Static method:");
         System.out.println("Can access staticVar: " + staticVar);
-        // Cannot access nonStaticVar here - would cause compilation error
-        // System.out.println(nonStaticVar); // This would cause error
     }
     
     // Non-static method - can access both static and non-static members
